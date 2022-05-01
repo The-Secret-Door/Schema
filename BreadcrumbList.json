@@ -1,0 +1,21 @@
+<script type="application/ld+json">
+{
+    "@type": "BreadcrumbList",
+    "@id": "https://www.website.com/page/breadcrumb",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.website.com/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "page"
+        }
+    ]
+}
+</script>
+
+

@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+ {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+   "name": "xxx",
+   "legalName" : "xxx",
+   "url": "xxx",
+   "logo": "xxx",
+   "foundingDate": "xxx",
+   "founders": [
+     {
+     "@type": "Person",
+     "name": "xxx"
+     },
+     {
+     "@type": "Person",
+     "name": "xxx"
+     } 
+   ],
+   "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "xxx",
+     "addressLocality": "xxx",
+     "addressRegion": "xxx",
+     "postalCode": "xxx",
+     "addressCountry": "xxx"
+   },
+   "contactPoint": {
+     "@type": "ContactPoint",
+     "contactType": "customer support",
+     "telephone": "xxx",
+     "email": "xxx",
+     "areaServed" : "xxx",
+     "availableLanguage" : ["xxx","xxx"]
+   },
+   "sameAs": ["xxx", "xxx", "xxx"]
+   "sponsor":{
+      "@type": "Organization",
+      "name": "xxx",
+      "url": "xxx"
+  }
+ }
+</script>
+
+
+
+
+

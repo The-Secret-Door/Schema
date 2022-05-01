@@ -4,6 +4,7 @@
 	"@type": "Blog",
 	"name": "xxx",
 	"description": "xxx",
+	"image": "xxx",
 	"url": "xxx",
 	"datePublished": "xxx",
 	"author": {

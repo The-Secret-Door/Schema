@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+	"@context" : "http://schema.org",
+	"@type": "Blog",
+	"name": "xxx",
+	"description": "xxx",
+	"url": "xxx",
+	"datePublished": "xxx",
+	"author": {
+		"@type" : "Thing",
+		"name": "lucerolawoffice"
+	}
+}
+</script>

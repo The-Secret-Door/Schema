@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ProfessionalService",
+  "name" : "xxx",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "xxx",
+    "addressLocality": "xxx",
+    "addressRegion": "xxx",
+    "postalCode": "xxx"
+  },
+  "telephone": "xxx", 
+  "url": "xxx",
+  "image" : "xxx",
+  "description": "xxx"
+}
+</script>
+

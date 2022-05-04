@@ -6,9 +6,9 @@
 	 "alternativeHeadline": "This article is also about robots and stuff",
 	 "image": "http://example.com/image.jpg",
 	 "author": {
-			"@type": "Person",
-			"name": "AuthorName",
-			"url": "http://example.com/author-name"
+		"@type": "Person",
+		"name": "AuthorName",
+		"url": "http://example.com/author-name"
 	  }, 
 	 "award": "Best article ever written",
 	 "editor": "Craig Mount", 

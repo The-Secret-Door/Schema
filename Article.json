@@ -24,7 +24,7 @@
 		}
 	  },
 	 "url": "http://www.example.com",
-	   "mainEntityOfPage": {
+	 "mainEntityOfPage": {
 		"@type": "WebPage",
 		"@id": "https://google.com/article"
 	  },

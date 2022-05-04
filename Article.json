@@ -4,7 +4,11 @@
  "headline": "Extra! Extra! Read alla bout it",
  "alternativeHeadline": "This article is also about robots and stuff",
  "image": "http://example.com/image.jpg",
- "author": "Patrick Coombe", 
+ "author": {
+    "@type": "Person",
+    "name": "AuthorName",
+    "url": "http://example.com/author-name"
+  }, 
  "award": "Best article ever written",
  "editor": "Craig Mount", 
  "genre": "search engine optimization", 

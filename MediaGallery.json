@@ -1,0 +1,143 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "MediaGallery",
+  "url": "https://accurateproservices.com/gallery/",
+  "about": [
+  {
+   "name": "Inspection",
+  "image":[
+  {
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/inspection-1.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/inspection-2.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/inspection-3.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/inspection-5.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/inspection-6.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "http://accurateproservices.com/wp-content/uploads/2022/05/279455811_418977936277143_25132688496809245_n.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "http://accurateproservices.com/wp-content/uploads/2022/05/279455811_674595960281477_2798281372549607384_n.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "http://accurateproservices.com/wp-content/uploads/2022/05/279918272_1033333094273765_8757520246297809235_n.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "http://accurateproservices.com/wp-content/uploads/2022/05/279765789_7257832640957853_6005085208072667449_n.jpg" 
+}
+  
+  ]
+  },
+  {
+   "name": "Cleaning",
+  "image":[
+  {
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-1.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-2.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-3.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-4.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-5.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-6.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-7.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-8.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-9.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning-img-10.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://yusufc1.sg-host.com/accurate/wp-content/uploads/2022/03/cleaning11.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning12.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning13.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/cleaning14.jpg" 
+}
+  ]
+  },
+  {
+   "name": "Repairs",
+  "image":[
+  {
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/inspection-4.jpg" 
+}
+  
+  ]
+  },
+  {
+   "name": "Emergency 24/7",
+  "image":[
+  {
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/emergency-1.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/emergency-2.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/emergency-3.jpg" 
+},
+{
+		  "@type": "ImageObject",
+		  "url": "https://accurateproservices.com/wp-content/uploads/2022/03/emergency-4.jpg" 
+}
+  ]
+  }
+  ]
+}
+</script>

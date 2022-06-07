@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "xxxx",
+  "url": "xxxx",
+  "image": "xxxx",
+  "description": "xxxx",
+  "about":[
+  {
+	"@type": "Person",
+	"name": "xxxx",
+	"jobTitle": "xxxx",
+	"image": "xxxx",
+	"url": "xxxx"
+	
+  },
+  {
+	"@type": "Person",
+	"name": "xxxx",
+	"jobTitle": "xxxx",
+	"image": "xxxx",
+	"url": "xxxx"
+	
+  },
+  {
+	"@type": "Person",
+	"name": "xxxx",
+	"jobTitle": "xxxx",
+	"image": "xxxx",
+	"url": "xxxx"
+	
+  }
+  ]
+}
+</script>

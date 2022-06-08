@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+<?php 
+if ( has_post_thumbnail() ) {
+$featured_image = wp_get_attachment_image_src( get_post_thumbnail_id(), 'post-details' );
+$featured_image = $featured_image[0];
+}
+else {
+	$featured_image ="/wp-content/uploads/2016/07/logo-white.png";  
+}
+?>
+ {
+"@context": "http://schema.org",
+"@type":"Blog",
+"datePublished":"<?php echo get_the_time('d/m/Y', $post->ID); ?>",
+"headline":"<?php  the_title(); ?>",
+"description":"<?php echo strip_tags(get_the_excerpt()); ?>",
+"author":"<?php the_author() ?>",
+"url":"<?php the_permalink(); ?>",
+"image":"<?php echo $featured_image; ?>",
+"publisher":"3Strong Fitness"
+  }
+</script>

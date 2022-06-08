@@ -17,6 +17,6 @@ else {
 "author":"<?php the_author() ?>",
 "url":"<?php the_permalink(); ?>",
 "image":"<?php echo $featured_image; ?>",
-"publisher":"3Strong Fitness"
+"publisher":"xxxx"
   }
 </script>

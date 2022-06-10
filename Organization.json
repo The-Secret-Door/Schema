@@ -1,45 +1,205 @@
 <script type="application/ld+json">
  {
   "@context": "https://schema.org",
-  "@type": "Organization",
-   "name": "xxx",
-   "legalName" : "xxx",
-   "url": "xxx",
-   "logo": "xxx",
-   "foundingDate": "xxx",
-   "founders": [
-     {
-     "@type": "Person",
-     "name": "xxx"
-     },
-     {
-     "@type": "Person",
-     "name": "xxx"
-     } 
-   ],
-   "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "xxx",
-     "addressLocality": "xxx",
-     "addressRegion": "xxx",
-     "postalCode": "xxx",
-     "addressCountry": "xxx"
-   },
-   "contactPoint": {
-     "@type": "ContactPoint",
-     "contactType": "customer support",
-     "telephone": "xxx",
-     "email": "xxx",
-     "areaServed" : "xxx",
-     "availableLanguage" : ["xxx","xxx"]
-   },
-   "sameAs": ["xxx", "xxx", "xxx"]
-   "sponsor":{
-      "@type": "Organization",
-      "name": "xxx",
-      "url": "xxx"
-  }
- }
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "www.example.com",
+  "name": "xxx",
+  "image": "xxx",
+  "legalName" : "xxx",
+  "alternateName": "xxx",
+  "url": "xxx",
+  "mainEntityOfPage": {
+	  	"@type": "WebPage",
+	  	"@id": "www.example.com"
+ 	},
+  "logo": "xxx",
+  "telephone": "[xxx, xxx, xxx]",
+	 "description": "xxx",
+ 	"priceRange": "$$$$",
+	 "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:00",
+ 	"paymentAccepted":"Visa, Master Card, Discover, Amex, ApplePay, AndroidPay, Bitcoin",
+ 	"address": {
+	  	"@type": "PostalAddress",
+    "addressCountry": "xxx",
+  		"addressLocality": "xxx",
+	  	"addressRegion": "xxx",
+  		"postalCode":"xxx",
+	  	"streetAddress": "xxx"
+	 },
+  "geo": {
+	  	"@type": "GeoCoordinates",
+	  	"latitude": "xxx",
+	  	"longitude": "xxx"
+ 	},
+  "contactPoint": [
+		{ 
+	  		"@type": "ContactPoint",
+  			"telephone": "xxx",
+		  	"contactType": "xxx",
+	  		"email": "xxx",
+  			"areaServed": ["xxx","xxx","xxx"],
+		  	"availableLanguage": ["French","English"]
+		}
+	],
+  "sameAs": ["xxx","xxx","xxx",],
+  "makesOffer":[
+		{
+			"@type":"Offer",
+			"itemOffered":
+				{
+					"@type":"Service",
+					"name":"xxx",
+					"url":"xxx"
+				}
+			},
+			{
+				"@type":"Offer",
+				"itemOffered":
+				{
+					"@type":"Service",
+					"name":"xxx",
+					"url":"xxx"
+				}
+			}
+	],
+   "location": [
+		{
+			"@type": "PostalAddress",
+			"telephone": "+16046898888",
+			"streetAddress": "#1301-808 Nelson Street",
+			"addressLocality": "Vancouver",
+			"addressRegion": "BC",
+			"addressCountry": "Canada",
+			"postalCode": "V6Z2H2",
+			"serviceArea":
+				[
+					{
+						"@type": "postalAddress",
+						"addressLocality":"Richmond",
+						"addressRegion": "British Columbia"
+					},
+					{
+						"@type": "postalAddress",
+						"addressLocality":"Surrey",
+						"addressRegion": "British Columbia"
+					},
+					{
+						"@type": "postalAddress",
+						"addressLocality":"Burnaby",
+						"addressRegion": "British Columbia"
+					}
+				]
+		},
+		{
+			"@type": "PostalAddress",
+			"telephone": "+16045918885",
+			"streetAddress": "7253-120 Street",
+			"addressLocality": "Delta",
+			"addressRegion": "BC",
+			"addressCountry": "Canada",
+			"postalCode": "V4C6P5"
+		}
+	],
+	"aggregateRating": {
+			"@type":"AggregateRating",
+			"ratingValue":"9.3",
+			"bestRating":"10",
+			"reviewCount":"719",
+			"itemReviewed": "#TheBusiness"
+	},
+	"potentialAction": {
+		"@type": "OrderAction",
+		"target":
+		{
+			"@type": "EntryPoint",
+			"name":"Book Now",
+			"urlTemplate": "https://new.simpsonthomas.com/contact#contact-form",
+			"inLanguage": "en-CA",
+			"actionPlatform":
+			[
+				"http://schema.org/DesktopWebPlatform",
+				"http://schema.org/IOSPlatform",
+				"http://schema.org/AndroidPlatform"
+			]
+		},
+		"result":
+		{
+			"@type": "Reservation",
+			"name": "Book Your Free Legal Consultation"
+		}
+	},
+	"foundingDate": "1980",
+	"founders": [
+		{
+			"@type": "Person",
+			"name": "John Doe",
+			"worksFor": "Notary Public Inc.",
+			"email": "mailto:john@example.com",
+			"image": "johndoe.jpg",
+			"jobTitle": "Partner",
+			"alumniOf": "Dartmouth",
+			"birthPlace": "Philadelphia, PA",
+			"birthDate": "1979.10.12",
+			"height": "72 inches",
+			"gender": "male",
+			"nationality": "American",
+			"telephone": "(123) 456-6789",
+			"url": "http://www.example.com/founder",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Manhattan",
+				"addressRegion": "NY",
+				"postalCode":"10036",
+				"streetAddress": "400 Broadway"
+			},
+			"colleague": [
+				"http://www.example.com/JohnColleague.html",
+				"http://www.example.com/JaneColleague.html"
+			],
+			"sameAs" : [
+				"https://www.facebook.com/founder",
+				"https://www.linkedin.com/founder",
+				"http://twitter.com/founder",
+				"http://instagram.com/founder",
+				"https://plus.google.com/founder"
+			]
+		},
+		{
+			"@type": "Person",
+			"name": "Jane Doe",
+			"worksFor": "Notary Public Inc.",
+			"email": "mailto:jane@example.com",
+			"image": "janedoe.jpg",
+			"jobTitle": "Partner",
+			"alumniOf": "Dartmouth",
+			"birthPlace": "Philadelphia, PA",
+			"birthDate": "1978.04.22",
+			"height": "65 inches",
+			"gender": "female",
+			"nationality": "American",
+			"telephone": "(123) 654-9876",
+			"url": "http://www.example.com/founder2",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Manhattan",
+				"addressRegion": "NY",
+				"postalCode":"10036",
+				"streetAddress": "400 Broadway"
+			},
+			"colleague": [
+				"http://www.example.com/JohnColleague.html",
+				"http://www.example.com/JaneColleague.html"
+			],
+			"sameAs" : [
+				"https://www.facebook.com/founder2",
+				"https://www.linkedin.com/founder2",
+				"http://twitter.com/founder2",
+				"http://instagram.com/founder2",
+				"https://plus.google.com/founder2"
+			]
+		}	
+	]
+}
 </script>
 
 

@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Monarch Boutique",
+    "image": "https://monarchboutique.in/wp-content/uploads/2021/11/01-2-4-1.jpg",
+    "legalName" : "Monarch Boutique",
+    "url": "https://monarchboutique.in/",
+    "logo": "https://monarchboutique.in/wp-content/uploads/2021/08/Logo5.png",
+    "telephone": "[+91 96770 05511, 8610231598, 090253 70005]",
+    "email": "sbeautlinchristy08@gmail.com",
+    "description": "Monarch Boutique is a womans clothing shop committed to helping you find clothing that makes you look beautiful and feel comfortable. We love fashion and dedicated to finding you trendy, modest and affordable women’s clothing that will make you excited about getting dressed up all day and night. We want you to feel confident and comfortable in your dress.",
+    "priceRange": "$$$$",
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:00",
+    "paymentAccepted":"Visa, Master Card, Discover, Amex, ApplePay, AndroidPay, Bitcoin",
+    "currenciesAccepted": "EUR,USD,INR",
+    "hasMap": "https://www.google.com/maps/place/Monarch+Boutique/@9.8730982,78.1225251,15z/data=!4m2!3m1!1s0x0:0x4ec1baeb56aea932?sa=X&ved=2ahUKEwjt4ZfyuqL4AhVu-DgGHUFsCsYQ_BJ6BQikARAF",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Avaniyapuram",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "625012",
+        "streetAddress": "No.1,ss illam, santhosam nagar, vaikkam, Periyar Nagar Rd"
+    },
+    "aggregateRating": {
+        "@type":"AggregateRating",
+        "ratingValue":"5",
+        "bestRating":"5",
+        "reviewCount":"2",
+        "itemReviewed": "Monarch Boutique"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "9.8730982",
+        "longitude": "78.1225251"
+    },
+    "location": {
+        "@type": "PostalAddress",
+        "telephone": "+91 96770 05511",
+        "streetAddress": "No.1,ss illam, santhosam nagar, vaikkam, Periyar Nagar Rd",
+        "addressLocality": "Avaniyapuram",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "India",
+        "postalCode": "625012"
+    },
+    "sameAs": ["https://www.facebook.com/Monarch-Boutique-569896823204994/","https://www.instagram.com/monarch__boutique/"]
+}
+</script>

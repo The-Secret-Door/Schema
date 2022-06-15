@@ -1,3 +1,5 @@
+  // Place the following code in Blog Template of your wordpress website.
+
 <script type="application/ld+json">
 <?php 
 if ( has_post_thumbnail() ) {

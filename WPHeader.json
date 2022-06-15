@@ -1,0 +1,22 @@
+<script type='application/ld+json'>
+	{
+		"@context": "http://schema.org/",
+		"@type": "WPHeader",
+		"about": {
+		"@type": "ClothingStore",
+		"name": "xxx",
+		"description": "xxx",
+		"telephone": "[123, 123, 123]",
+		"priceRange": "$$$$",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "xxx",
+			"addressRegion": "xxx",
+			"postalCode": "123",
+			"streetAddress": "xxx"
+				},
+		"logo": "xxx",
+		"inLanguage": "en"
+			}
+		}
+</script>

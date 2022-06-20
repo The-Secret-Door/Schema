@@ -105,7 +105,11 @@
         "ratingValue":"9.3",
         "bestRating":"10",
         "reviewCount":"123",
-        "itemReviewed": "#TheBusiness"
+         "itemReviewed": {
+                "@type": "Organization",
+                "image": "https://www.topseosydney.com.au/wp-content/uploads/2022/06/topseo.webp",
+                "name": "Digital Marketing Agency Sydney"
+              }
     },
     "potentialAction": {
         "@type": "OrderAction",
